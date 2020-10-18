@@ -82,7 +82,7 @@ To begin this project, I created wireframes/rough mockups of my desired end prod
 
 ## **Spotify Web API**
 
-This project utilizes the Spotify Web API. This API offers excellent documentation and tutorials for proper implementation. Code snippets that will be relevant to this project have been included below. 
+This project utilizes the Spotify Web API. This API offers excellent documentation and tutorials for proper implementation.
 
 To learn more visit 
 https://developer.spotify.com/documentation/web-api/
