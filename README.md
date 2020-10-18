@@ -91,19 +91,19 @@ https://developer.spotify.com/documentation/web-api/
 
 Code snippets relevant to this project are included below. **Listyn** will retrieve a playlist, and then retrieve the relevant artist information from that playlist. 
 
-**• Playlist Object**
+##### • Playlist Object
 
   ><"name" : "Dinner with Friends",
   "owner" : {
     "external_urls" : {
       "spotify" : "http://open.spotify.com/user/spotify">
 
-**• Artist Object**
+##### • Artist Object
 
   ><"name" : "Band of Horses",
   "popularity" : 59,
   "type" : "artist",
-  "uri" : "spotify:artist:0OdUWJ0sBjDrqHygGUXeCF">
+  "uri" : "spotify: 0OdUWJ0sBjDrqHygGUXeCF">
 
 ## **Trello Board**
 
