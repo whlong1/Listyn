@@ -20,15 +20,15 @@ Below is an overview of my course of action for this project. For a more detaile
 
 To begin this project, I created wireframes/rough mockups of my desired end product. These mockups will act as a reminder to prioritize the user experience throughout the development process. I have also done extensive research to confirm that the Spotify API can meet my project's goals.
 
-**Home Page**
+### Home Page
 
 ![Homepage](https://i.imgur.com/oaXpXr7.png)
 
-**Interior List Page**
+### Interior List Page
 
 ![List Sample](https://i.imgur.com/MXuPxzk.png)
 
-**About Us Page**
+### About Us Page
 
 ![About Us](https://i.imgur.com/Cq5t3wr.png)
 
@@ -87,7 +87,7 @@ This project utilizes the Spotify Web API. This API offers excellent documentati
 To learn more visit 
 https://developer.spotify.com/documentation/web-api/
 
-### **Code Snippets**
+### Code Snippets
 
 **• Playlist Object**
 
