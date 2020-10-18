@@ -34,7 +34,7 @@ To begin this project, I created wireframes/rough mockups of my desired end prod
 
 ### **Development Process**
 
-### First Steps
+#### First Steps
 
 >• Building the basic HTML structure of an interior list page.
 
@@ -42,7 +42,7 @@ To begin this project, I created wireframes/rough mockups of my desired end prod
 
 >• Setting up a preliminary Javascript file. 
 
-### Core Challenges
+#### Core Challenges
 
 >• Completing the OAuth Access Token process. 
 
@@ -50,7 +50,7 @@ To begin this project, I created wireframes/rough mockups of my desired end prod
 
 >• Retrieving song, artist, album, and album cover data.
 
-### Next Steps
+#### Next Steps
 
 >• Complete Home and About Us pages.
 
@@ -60,7 +60,7 @@ To begin this project, I created wireframes/rough mockups of my desired end prod
 
 >• Making these lists accessible from the home page.
 
-### Stretch Goals
+#### Stretch Goals
 
 >• Using CSS, I would like to make the record spin when a song preview is playing. 
 
