@@ -12,11 +12,9 @@ Music publications provide their respective audiences with an endless barrage of
 
 >-Lester Bangs
 
-## **The Path Forward**
+## **Project Planning**
 
 Below is an overview of my course of action for this project. For a more detailed accounting of the project timeline, please visit the Trello Board section below.  
-
-### **Project Planning**
 
 To begin this project, I created wireframes/rough mockups of my desired end product. These mockups will act as a reminder to prioritize the user experience throughout the development process. I have also done extensive research to confirm that the Spotify API can meet my project's goals.
 
@@ -66,7 +64,11 @@ To begin this project, I created wireframes/rough mockups of my desired end prod
 
 >• Include a link to purchase the song or album on Amazon. 
 
-## **User Stories**
+## **User Experience**
+
+#### User Experience Overview
+
+Upon entering the site, the user will be greeted with a welcome message and a drop-down menu used to select a desired list. Once a list has been selected, a user will be taken to an interior page that displays the title of the list, a drop down menu for navigating the list, as well as the data corresponding to the first item on the list. This page will also include a preview button for listening to a song, and navigation buttons for clicking through a list, one item at a time. 
 
 #### User Story One
 
@@ -89,21 +91,19 @@ https://developer.spotify.com/documentation/web-api/
 
 #### Code Snippets
 
-Code snippets relevant to this project are included below. **Listyn** will retrieve a playlist, and then retrieve the relevant artist information from that playlist. 
+Code snippets relevant to this project are included below. **Listyn** will retrieve a playlist, and then retrieve the relevant track/artist/album information from that playlist. 
 
-##### • Playlist Object
+##### • Playlist
 
-  ><"name" : "Dinner with Friends",
-  "owner" : {
-    "external_urls" : {
-      "spotify" : "http://open.spotify.com/user/spotify">
+<https://api.spotify.com/v1/playlists/{playlist_id}>
 
-##### • Artist Object
+><!--This is a comment-->{"name" : "Dinner with Friends","owner" : {"external_urls" : {"spotify" : "http://open.spotify.com/user/spotify"},"href" : "https://api.spotify.com/v1 users/spotify","id" : "spotify","type" : "user","uri" : "spotify:user:spotify"}
 
-  ><"name" : "Band of Horses",
-  "popularity" : 59,
-  "type" : "artist",
-  "uri" : "spotify: 0OdUWJ0sBjDrqHygGUXeCF">
+##### • Track
+
+>https://api.spotify.com/v1/tracks/{id}
+
+  ><!--This is a comment-->{"album": {"album_type": "single", "artists": [ { "external_urls": {"spotify": "https://open.spotify.com/artist/6sFIWsNpZYqfjUpaCgueju"},"href": "https://api.spotify.com/v1/artists/6sFIWsNpZYqfjUpaCgueju","id": "6sFIWsNpZYqfjUpaCgueju","name": "Carly Rae Jepsen","type": "artist","uri": "spotify:artist:6sFIWsNpZYqfjUpaCgueju"}
 
 ## **Trello Board**
 
