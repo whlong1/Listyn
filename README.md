@@ -93,31 +93,21 @@ https://developer.spotify.com/documentation/web-api/
 
 Code snippets relevant to this project are included below. **Listyn** will retrieve a playlist, and then retrieve the relevant track/artist/album information from that playlist. 
 
-##### • Get a Playlist
+##### • Get a Playlist's Items
 
-A playlist can be retrieved with this.
+A playlist's Items can be fetched with this. The response returns an array of track items with an index corresponding to their order in the playlist. The response is limited to 100 items, so pagination will be required for lists over this number. The response includes a track id, that can be used with Get a Track. 
 
-><https://api.spotify.com/v1/playlists/{playlist_id}>
+>https://developer.spotify.com/console/get-playlist-tracks/
 
->https://developer.spotify.com/console/get-track/?id=3n3Ppam7vgaVa1iaRUc9Lp
-
+![Playlist](https://i.imgur.com/IuvQnJQ.png)
 
 ##### • Get a Track
 
-A track can be retrieved with this.
+A track object can be fetched with this. Using the track id returned from the playlist items, we have access to the Artist, Album, Release Date, and Album Art. 
 
->https://api.spotify.com/v1/tracks/{id}
+>https://developer.spotify.com/console/get-track/
 
->https://developer.spotify.com/console/get-track/?id=3n3Ppam7vgaVa1iaRUc9Lp
-
-##### • Get an Album
-
-The album cover and release date can be retrieved with this.
-
->https://api.spotify.com/v1/albums/{id}
-
->https://developer.spotify.com/console/get-album/
-
+![Track](https://i.imgur.com/6H60nbx.png)
 
 ## **Trello Board**
 
