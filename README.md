@@ -93,17 +93,31 @@ https://developer.spotify.com/documentation/web-api/
 
 Code snippets relevant to this project are included below. **Listyn** will retrieve a playlist, and then retrieve the relevant track/artist/album information from that playlist. 
 
-##### • Playlist
+##### • Get a Playlist
 
-<https://api.spotify.com/v1/playlists/{playlist_id}>
+A playlist can be retrieved with this.
 
-><!--This is a comment-->{"name" : "Dinner with Friends","owner" : {"external_urls" : {"spotify" : "http://open.spotify.com/user/spotify"},"href" : "https://api.spotify.com/v1 users/spotify","id" : "spotify","type" : "user","uri" : "spotify:user:spotify"}
+><https://api.spotify.com/v1/playlists/{playlist_id}>
 
-##### • Track
+>https://developer.spotify.com/console/get-track/?id=3n3Ppam7vgaVa1iaRUc9Lp
+
+
+##### • Get a Track
+
+A track can be retrieved with this.
 
 >https://api.spotify.com/v1/tracks/{id}
 
-  ><!--This is a comment-->{"album": {"album_type": "single", "artists": [ { "external_urls": {"spotify": "https://open.spotify.com/artist/6sFIWsNpZYqfjUpaCgueju"},"href": "https://api.spotify.com/v1/artists/6sFIWsNpZYqfjUpaCgueju","id": "6sFIWsNpZYqfjUpaCgueju","name": "Carly Rae Jepsen","type": "artist","uri": "spotify:artist:6sFIWsNpZYqfjUpaCgueju"}
+>https://developer.spotify.com/console/get-track/?id=3n3Ppam7vgaVa1iaRUc9Lp
+
+##### • Get an Album
+
+The album cover and release date can be retrieved with this.
+
+>https://api.spotify.com/v1/albums/{id}
+
+>https://developer.spotify.com/console/get-album/
+
 
 ## **Trello Board**
 
